@@ -18,7 +18,7 @@ export default function Timer() {
                 return prevcount - 1
             })
 
-            console.log('intervel chala')
+            console.log('intervel chala', count)
             
         }, 1000);
 
@@ -37,8 +37,5 @@ export default function Timer() {
     }, [])
 
     return <h2>Count : {count}</h2>
-
-   
-
 
 }

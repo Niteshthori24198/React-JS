@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "username": "Nitesh",
+      "course": "1",
+      "iscompleted": true,
+      "id": 1
+    },
+    {
+      "username": "nitesh320",
+      "course": "1",
+      "iscompleted": false,
+      "id": 2
+    },
+    {
+      "username": "nitesh320",
+      "course": "2",
+      "iscompleted": true,
+      "id": 3
+    }
+  ]
+}
