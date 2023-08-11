@@ -4,14 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppcontextProvider from './Context';
+import CountercontextProvider from './Countercontext';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <AppcontextProvider>
-    <App />
-  </AppcontextProvider>
+
+  <CountercontextProvider>
+    <AppcontextProvider>
+      <App />
+    </AppcontextProvider>
+
+  </CountercontextProvider>
+
 
 
 );
