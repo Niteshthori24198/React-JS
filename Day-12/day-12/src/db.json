@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "id":1,
+            "image": "https://qph.cf2.quoracdn.net/main-qimg-d7af6c8d34f53c50994e65859189b169-lq",
+            "Price": 6500
+        },
+        {
+            "id":2,
+            "image": "https://images.unsplash.com/photo-1580483046931-aaba29b81601?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnVzc2lhbiUyMGdpcmx8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            "Price": 6000
+        },
+        {
+            "id":3,
+            "image": "https://www.stylecraze.com/wp-content/uploads/2013/07/148-shutterstock_128569691.jpg",
+            "Price": 7000
+        },
+        {
+            "id":4,
+            "image": "https://st2.depositphotos.com/1000824/8380/i/450/depositphotos_83808906-stock-photo-young-beautiful-blonde-woman.jpg",
+            "Price": 9000
+        },
+        {
+            "id":5,
+            "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/152d6c9f-71b5-437a-892a-e407ef7a2f31/dfv5ylr-3e22e914-91b7-4d80-92cc-a1f44bfd30d6.jpg/v1/fill/w_1280,h_1661,q_75,strp/lush_beautiful_russian_girl_w2_by_tomasu024_dfv5ylr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY2MSIsInBhdGgiOiJcL2ZcLzE1MmQ2YzlmLTcxYjUtNDM3YS04OTJhLWU0MDdlZjdhMmYzMVwvZGZ2NXlsci0zZTIyZTkxNC05MWI3LTRkODAtOTJjYy1hMWY0NGJmZDMwZDYuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HO7YXH634avt7Pamlx8HXO9_NcQ1PTJ4L2dUSGfH-lQ",
+            "Price": 10000
+        },
+        {
+            "id":6,
+            "image": "https://qph.cf2.quoracdn.net/main-qimg-f53f8dc1c9d45688f0f695ab6c4bcbe7-lq",
+            "Price": 5500
+        },
+        {
+            "id":7,
+            "image": "https://play-lh.googleusercontent.com/rd3WSmocLOAlWFn4IdqG7KJqgCTemj4Wzb6dCbgucCK0TXIqoNERm0cmITKrRePq0KE",
+            "Price": 8500
+        },
+        {
+            "id":8,
+            "image":"https://media.istockphoto.com/id/860045078/photo/pretty-woman-fashion-model-with-blowing-curly-hair-cute-girl-outdoors.jpg?s=612x612&w=0&k=20&c=HaA0UWXEU06Dy3k6RjOA2IrAzYq7TeQdZ9rhZPUGUfo=",
+            "Price":5000
+        }
+    ]
+}
