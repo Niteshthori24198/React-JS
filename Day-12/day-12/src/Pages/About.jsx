@@ -2,7 +2,9 @@ export default function About(){
 
     console.log(process.env.NODE_ENV)
 
-    console.log(process.env.REACT_APP_mera)
+    console.log("==>", process.env.react_app_key)
+
+    // console.log(process.env.REACT_APP_mera)
 
     return <div>
 
