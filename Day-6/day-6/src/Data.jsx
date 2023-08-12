@@ -1,5 +1,7 @@
 import React from "react";
 
+import axios from 'axios'
+
 export default function Data() {
 
     const [data, setdata] = React.useState([])
@@ -24,33 +26,30 @@ export default function Data() {
         setloading(true)
         setiserror(false)
 
-        fetch(`https://63ca7e2e4f53a00420242ac5.mockapi.io/User?limit=5&page=${page}`)
-            .then((res) => {
-                return res.json()
-            })
-            .then((data) => {
+
+        axios.get(`https://63ca7e2e4f53a00420242ac5.mockapi.io/User?limit=5&page=${page}`)
+            .then((d) => {
+                let data = d.data;
                 setiserror(false)
                 setloading(false)
                 setdata([...data])
 
-                let temp = Math.ceil(21/5);
+                let temp = Math.ceil(21 / 5);
 
-                let arr=[]
+                let arr = []
 
-                for(let i=1;i<=temp;i++){
+                for (let i = 1; i <= temp; i++) {
                     arr.push(i)
                 }
 
                 setpages(arr)
-
-                console.log(data)
-            })
-            .catch((err) => {
+            }).catch((err) => {
                 setiserror(true)
                 setloading(false)
                 console.log(err)
             })
     }
+
 
 
     function Display({ data }) {
@@ -69,21 +68,21 @@ export default function Data() {
 
     }
 
-    function Button({button}) {
+    function Button({ button }) {
 
-        console.log("button",button)
+        console.log("button", button)
 
         return <>
-        
-        {
-            button.map((text)=>{
 
-                return <button onClick={(e)=>setpageno(text)}>{text}</button>
-            })
-        }
-        
+            {
+                button.map((text) => {
+
+                    return <button onClick={(e) => setpageno(text)}>{text}</button>
+                })
+            }
+
         </>
-        
+
 
     }
 
