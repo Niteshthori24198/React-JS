@@ -1,4 +1,6 @@
 
+# Revise Concepts
+
 # useEffect
 
 #### Without []
@@ -49,3 +51,39 @@ Benefits:
     - For instance, if you accidentally change some data while your component is rendering, it'll warn you to avoid unexpected behavior.
 
     It encourages you to use modern practices and update your code for a smoother user experience.
+
+
+# State Management Tools : 
+-   useState
+-   useReducer
+-   useRef
+
+
+### useState
+
+-    we have mainly 3 ways we can use it.
+-   Syntax : 
+-   const [state,setstate] = useState(initialstate)
+-   const value = useState(initialstate)
+    - const state = value[0]
+    - const setstate = value[1]
+
+-   We can pass initial state in many ways..
+    - primitive value
+    - Non primitive value
+    - function as well..*** { We have to return some value if we are passing a function as initial state. but calling the function is optional as even if we pass the reference only then still react will execute it and replace the return value as initial value there.}**
+
+
+## useReducer
+
+-   We can pass anything in ***{dispatch}*** function. it's just convention that we follow object way, but we can send anything in it.
+-   reducer take two parameter: first one is data value and second one is whatever that is being sent by dispatcher.
+-   final value of data depend upon what we are returning from reducer.
+
+
+
+
+
+## useRef
+
+-   It's a data management hook. It doesn't triggers re-render effect on UI. it's mainly used to store data for useablity.
