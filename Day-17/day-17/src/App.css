@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.btnstyle{
+  color:white;
+  border-radius: 7px;
+  border: none;
+  width: 120px;
+  padding: 12px;
+  margin-top: 15px;
+}
+
+.bgclr{
+  background-color: #007bff;
+  
+}
+
+.defaultClr{
+  background-color: red;
+}
+
+input{
+  height: 50px;
+  width: 50px;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
