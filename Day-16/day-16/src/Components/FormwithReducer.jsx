@@ -1,4 +1,4 @@
-import { useReducer } from "react";
+
 import useMyReducer from "../Hooks/useMyReducer";
 
 
@@ -41,22 +41,27 @@ export default function FormwithReducer() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log(state)
+
         dispatcherFunc({ type: 'reset' })
     }
 
 
     return (
+        <>
 
-        <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
 
-            <input type="text" placeholder="Email" value={state.Email} onChange={(e) => dispatcherFunc({ type: 'Email', payload: e.target.value })} />
+                <input type="text" placeholder="Email" value={state.Email} onChange={(e) => dispatcherFunc({ type: 'Email', payload: e.target.value })} />
 
-            <input type="text" placeholder="Name" value={state.Name} onChange={(e) => dispatcherFunc({ type: 'Name', payload: e.target.value })} />
+                <input type="text" placeholder="Name" value={state.Name} onChange={(e) => dispatcherFunc({ type: 'Name', payload: e.target.value })} />
 
-            <input type="submit" value={"Submit"} />
+                <input type="submit" value={"Submit"} />
 
-        </form>
+            </form>
+
+            
+
+        </>
 
 
 
