@@ -61,6 +61,6 @@
 
 - ## Redux work Flow : 
 
-<video src="./reduxworking/vdo.mp4" controls title="Title"></video>
+    <img src="./reduxworking/vdo.gif" alt="Mr.India" />    
 
 
