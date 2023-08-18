@@ -60,7 +60,7 @@
     - Fuction output should be predictable and has no side effects.
 
 - ## Redux work Flow : 
+      ![vdo](https://github.com/Niteshthori24198/React-JS/assets/62844049/376cc11d-67bd-4116-9a24-03bf7774ab95)
 
-    <img src="./reduxworking/vdo.gif" alt="Mr.India" />    
 
 
