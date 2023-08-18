@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "status": false
+    },
+    {
+      "title": "React",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "redux",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "react-redux",
+      "status": false,
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
