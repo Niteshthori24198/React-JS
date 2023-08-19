@@ -1,0 +1,49 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "status": false
+    },
+    {
+      "title": "React",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "redux",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "react-redux",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "mera todo",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "Angular",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "html",
+      "status": false,
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
