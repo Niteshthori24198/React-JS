@@ -1,0 +1,208 @@
+{
+  "restaurants": [
+    {
+      "id": 2,
+      "name": "I-Phone",
+      "type": "ethnic",
+      "rating": 3,
+      "price": 100,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 3,
+      "name": "Danigel",
+      "type": "fast_food",
+      "rating": 2,
+      "price": 230,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 4,
+      "name": "Gallemore",
+      "type": "cafe",
+      "rating": 1.5,
+      "price": 210,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 6,
+      "name": "Tidder",
+      "type": "cafe",
+      "rating": 1.5,
+      "price": 400,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 7,
+      "name": "Tookill",
+      "type": "casual_dining",
+      "rating": 4,
+      "price": 250,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 8,
+      "name": "Vahey",
+      "type": "casual_dining",
+      "rating": 4,
+      "price": 210,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 9,
+      "name": "Baap",
+      "type": "fast_food",
+      "rating": 1.5,
+      "price": 240,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 10,
+      "name": "Mathouse",
+      "type": "cafe",
+      "rating": 5,
+      "price": 230,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 12,
+      "name": "von Grollmann",
+      "type": "ethnic",
+      "rating": 2.5,
+      "price": 150,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 13,
+      "name": "Duffet",
+      "type": "fast_food",
+      "rating": 5,
+      "price": 1450,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 14,
+      "name": "Cribbins",
+      "type": "fast_food",
+      "rating": 1,
+      "price": 100,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 15,
+      "name": "Grellier",
+      "type": "fine_dining",
+      "rating": 4,
+      "price": 475,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 16,
+      "name": "Dargie",
+      "type": "fast_food",
+      "rating": 2,
+      "price": 725,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 17,
+      "name": "Meekin",
+      "type": "casual_dining",
+      "rating": 4.5,
+      "price": 500,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 18,
+      "name": "Franchyonok",
+      "type": "fine_dining",
+      "rating": 4,
+      "price": 975,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 19,
+      "name": "Bennit",
+      "type": "ethnic",
+      "rating": 3.5,
+      "price": 180,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 20,
+      "name": "Stanbrooke",
+      "type": "ethnic",
+      "rating": 4.5,
+      "price": 925,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "name": "Taj",
+      "type": "fine_dining",
+      "rating": 3,
+      "price": 1000,
+      "image": "https://picsum.photos/200",
+      "id": 21
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 22
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 23
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 24
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 25
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 26
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 27
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 28
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 29
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 30
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 31
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 32
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "1",
+      "id": 33
+    }
+  ]
+}
