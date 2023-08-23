@@ -167,6 +167,14 @@
       "price": "100",
       "image": "https://img.freepik.com/premium-photo/colorful-autumn-landscape-italian-alps-popular-photographers-attraction-braies-lake-naturpa_977580-126.jpg?w=360",
       "id": 24
+    },
+    {
+      "name": "Nitesh Kumar",
+      "type": "fast_food",
+      "rating": "2",
+      "price": "100",
+      "image": "https://img.freepik.com/premium-photo/colorful-autumn-landscape-italian-alps-popular-photographers-attraction-braies-lake-naturpa_977580-126.jpg?w=360",
+      "id": 25
     }
   ]
 }

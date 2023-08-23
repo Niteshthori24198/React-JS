@@ -36,5 +36,6 @@ const HomeWrapper = styled.div`
     display: flex;
     gap: 15px;
     margin: 50px auto;
+    
 
 `

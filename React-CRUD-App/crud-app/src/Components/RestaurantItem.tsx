@@ -14,8 +14,6 @@ function RestaurantItem({ name, type, rating, image, price }: restaurantsStructu
             <p>Type : {type}</p>
             <p>Rating : {rating} ⭐</p>
             <p>price : {price} Rs</p>
-
-
         </Restwrapper>
 
     )
