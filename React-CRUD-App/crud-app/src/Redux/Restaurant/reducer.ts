@@ -1,5 +1,6 @@
+import { GET_RESTAURANT, POST_RESTAURANT, RESTAURANT_FAILURE, RESTAURANT_REQ } from "../actionTypes"
 
-interface restaurants {
+export interface restaurantsStructure {
     name: string,
     type: string,
     rating: number,
@@ -8,22 +9,22 @@ interface restaurants {
 }
 
 
-interface restaurantTypes {
+export interface restaurantTypes {
     isloading: boolean,
     iserror: boolean,
-    restaurants: Array<restaurants>
+    restaurants: Array<restaurantsStructure>
 }
 
 
 
-interface restaurantActionTypes {
+export interface restaurantActionTypes {
     type: string,
-    payload: restaurants
+    payload?: restaurantsStructure
 
 }
 
 
-const initialState: restaurantTypes = {
+export const initialState: restaurantTypes = {
     isloading: false,
     iserror: false,
     restaurants: []
@@ -33,6 +34,39 @@ const initialState: restaurantTypes = {
 
 export const reducer = (state: restaurantTypes = initialState, { type, payload }: restaurantActionTypes) => {
     switch (type) {
+
+        case RESTAURANT_REQ: {
+            return {
+                isloading: true,
+                iserror: false,
+                restaurants: []
+            }
+        }
+
+        case GET_RESTAURANT: {
+            return {
+                isloading: false,
+                iserror: false,
+                restaurants:payload
+            }
+        }
+
+        case POST_RESTAURANT: {
+            return {
+                isloading: false,
+                iserror: false,
+                restaurants: [...state.restaurants, payload]
+            }
+        }
+
+        case RESTAURANT_FAILURE: {
+            return {
+                isloading: false,
+                iserror: true,
+                restaurants: []
+            }
+        }
+
         default:
             return state
     }

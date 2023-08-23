@@ -14,7 +14,7 @@ export interface userloginform {
 
 
 interface Props {
-    auth: boolean;
+    auth: string;
 }
 
 function Login() {
@@ -54,9 +54,9 @@ function Login() {
     return (
 
         
-        <WRAPPER auth={auth} onSubmit={handleSubmit}>
+        <WRAPPER auth={`${auth}`} onSubmit={handleSubmit}>
 
-            <h2>Login Here</h2>
+            <h2>{auth?"Login Successfull":"Login to Continue"}</h2>
 
             <input disabled={true} type="email" placeholder='Enter email' name='email' value={loginformdata.email} onChange={(e) => handlechange(e)} />
             <input disabled={true} type="password" placeholder='Enter Password' name='password' value={ loginformdata.password} onChange={(e) => handlechange(e)} />
@@ -81,7 +81,7 @@ const WRAPPER = styled.form<Props>`
     padding: 15px;
 
     h2{
-        color:${({auth})=>(auth?"green":"red")}
+        color:${({auth})=>(auth==="true"?"green":"red")}
     }
 
     input{

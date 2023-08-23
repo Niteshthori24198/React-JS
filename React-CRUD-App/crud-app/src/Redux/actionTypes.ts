@@ -5,7 +5,6 @@ export const LOGIN_REQ: string = 'LOGIN_REQ'
 
 export const LOGIN_SUCCESS: string = 'LOGIN_SUCCESS'
 
-
 export const LOGIN_FAIL: string = 'LOGIN_FAIL'
 
 
@@ -20,7 +19,6 @@ export const LOGIN_FAIL: string = 'LOGIN_FAIL'
 export const RESTAURANT_REQ: string = 'RESTAURANT_REQ'
 
 export const RESTAURANT_FAILURE: string = 'RESTAURANT_FAILURE'
-
 
 export const GET_RESTAURANT: string = 'GET_RESTAURANT'
 

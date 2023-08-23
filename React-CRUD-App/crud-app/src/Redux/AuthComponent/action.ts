@@ -18,7 +18,7 @@ export const loginUser = (payload: userloginform):ThunkAction<void, RootState, n
     dispatch({ type: LOGIN_REQ })
 
     axios({
-        url: `${process.env.REACT_APP_BASE_URL}`,
+        url: `${process.env.REACT_APP_LOGIN_URL}`,
         method: 'post',
         data: payload
     }).then((res) => {
