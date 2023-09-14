@@ -175,6 +175,14 @@
       "price": "100",
       "image": "https://img.freepik.com/premium-photo/colorful-autumn-landscape-italian-alps-popular-photographers-attraction-braies-lake-naturpa_977580-126.jpg?w=360",
       "id": 25
+    },
+    {
+      "name": "dsa",
+      "type": "casual_dining",
+      "rating": "3",
+      "price": "499",
+      "image": "https://img.freepik.com/premium-photo/colorful-autumn-landscape-italian-alps-popular-photographers-attraction-braies-lake-naturpa_977580-126.jpg?w=360",
+      "id": 26
     }
   ]
 }
